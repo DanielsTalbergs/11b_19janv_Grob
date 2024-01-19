@@ -1,2 +1,3 @@
-with open("uzd1.txt", "r") as f:
-    print(f.read())
+with open("teksts.txt", "r") as f:
+    contents = f.read()
+print(contents)
